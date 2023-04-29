@@ -39,12 +39,5 @@ public class Graph {
     }
 
 
-    public static void main(String[] args) {
-        Graph graph = new Graph();
-        graph.insertVertice(1);
-        graph.insertVertice(2);
-        graph.insertEdge(2,1);
-        System.out.println(graph.checkEdge(2,1));
-
-    }
+   
 }
